@@ -62,6 +62,7 @@ h2 { font-size: clamp(1.75rem, 3vw, 2.6rem); letter-spacing: -.028em; line-heigh
 .steps li::before { content: counter(step); display: grid; place-items: center; width: 2rem; height: 2rem; margin-bottom: .75rem; border-radius: .4rem; background: #332346; color: var(--lavender); font-weight: 700; }
 .steps h3 { font-size: 1.0625rem; }
 .steps p { color: var(--subtle); line-height: 1.6; margin-top: .4rem; }
+.install-note { margin-top: 1.25rem; color: var(--subtle); line-height: 1.6; }
 .verification { margin-top: 1.5rem; border-block: 1px solid var(--border); }
 summary { cursor: pointer; padding-block: .85rem; min-height: 2.75rem; }
 dl { display: grid; gap: .6rem; margin: 0 0 1rem; }

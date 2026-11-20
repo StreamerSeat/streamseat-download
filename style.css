@@ -56,6 +56,7 @@ h1 { font-size: clamp(3rem, 6.15vw, 6.1rem); line-height: .96; letter-spacing: -
 .section { border-top: 1px solid var(--border); padding-block: 2.75rem; }
 h2 { font-size: clamp(1.75rem, 3vw, 2.6rem); letter-spacing: -.028em; line-height: 1.1; }
 .section-heading p, .support p, footer p { color: var(--subtle); line-height: 1.6; margin-top: .5rem; }
+.downloader-code { color: var(--lavender); font-size: 1.125em; font-variant-numeric: tabular-nums; letter-spacing: .03em; }
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1.5rem, 4vw, 3.25rem); margin: 2rem 0 0; padding: 0; list-style: none; counter-reset: step; }
 .steps li { counter-increment: step; border-top: 1px solid var(--border); padding-top: 1rem; }
 .steps li::before { content: counter(step); display: grid; place-items: center; width: 2rem; height: 2rem; margin-bottom: .75rem; border-radius: .4rem; background: #332346; color: var(--lavender); font-weight: 700; }
